@@ -61,7 +61,7 @@ sortedTopHashTags.foreachRDD( rdd => {
   println("========================")
   })
 
-ssc.checkpoint("hdfs://spkm:9000/spark/checkpoint")
+ssc.checkpoint("hdfs://spkm:9000/checkpoint")
 
 ssc.start()
 

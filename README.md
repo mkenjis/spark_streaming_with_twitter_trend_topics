@@ -3,7 +3,7 @@ spark streaming with twitter trend topics
 
 # Purpose:
 - use twitter as producer to ingest tweets to be used by spark streaming.
-- show the trend topics being twitted in twitter
+- show trend topics using updateStateByKey to count and keep state count by hashtag
 
 # Requirements:
 - Spark installed
